@@ -1,6 +1,6 @@
 # Pinecone IDE
 
-A small IDE for the language [Pinecone][https://github.com/william01110111/Pinecone] built with [Fragaria][https://github.com/mugginsoft/Fragaria] and written in Objective-C
+A small IDE for the language [Pinecone](https://github.com/william01110111/Pinecone) built with [Fragaria](https://github.com/mugginsoft/Fragaria) and written in Objective-C
 
 ## Features
 
@@ -11,17 +11,17 @@ A small IDE for the language [Pinecone][https://github.com/william01110111/Pinec
 
 ## Installing the IDE
 
-You can either clone the repo and build it yourself with Xcode or grab the compiled version [here][https://github.com/frk2z/PineconeIDE/releases]
+You can either clone the repo and build it yourself with Xcode or grab the compiled version [here](https://github.com/frk2z/PineconeIDE/releases)
 
 ## Questions that you might ask
 
 - Why can't I run my program ?
 
-Make sure that the *pinecone* executable is in your $PATH, if it isn't clone the [Pinecone git repository][https://github.com/william01110111/Pinecone.git], compile and install it yourself.
+Make sure that the *pinecone* executable is in your $PATH, if it isn't clone the [Pinecone git repository](https://github.com/william01110111/Pinecone.git), compile and install it yourself.
 
 - How can I learn Pinecone ?
 
-By reading [these tutorials][https://github.com/william01110111/Pinecone/blob/master/tutorials/index.md].
+By reading [these tutorials](https://github.com/william01110111/Pinecone/blob/master/tutorials/index.md).
 
 - Why creating an IDE for Pinecone ?
 
@@ -33,7 +33,7 @@ I tried to use a newer version of Fragaria, but even after trying to follow the 
 
 - I have more questions / I want to contact you, how can I do it ?
 
-You can contact me on my Twitter ([@FrK2z][https://twitter.com/FrK2z]) or if you don't have Twitter you can still use my [e-mail][mailto:fr.k2z.dev@outlook.fr].
+You can contact me on my Twitter ([@FrK2z](https://twitter.com/FrK2z)) or if you don't have Twitter you can still use my [e-mail](mailto:fr.k2z.dev@outlook.fr).
 
 ## TODO
 
