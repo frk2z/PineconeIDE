@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="generator" content="HTML Tidy for HTML5 for Mac OS X dated 2014/11/22">
+<title>Readme for MGSFragariaViewModern demonstration</title>
+</head>
+<body>
+<h1>About the README</h1>
+<p>This sample file is pre-loaded into the sample text editor so that you can see Fragaria working right away. It also discusses some of the sample techniques used in the demo application in order to take advantage of some of Fragaria’s key features.</p>
+
+<h1>About MGSFragariaViewModern demo app</h1>
+<p>The demonstration application is meant to show you how you might use several of the features available in Fragaria, and in particular MGSFragariaView which is destined to replace MGSFragaria for mainstream use.</p>
+<p>The demo application is not meant to be a full-featured application, but only a model for demonstrating how you might interact with Fragaria. For example your own application would have more sophisticated means of managing breakpoints and syntax errors.</p>
+<p>This demo application uses purely "new" components that are 100% backwards incompatible with nearly every other Fragaria fork, such as the syntax error controller and the new-style defaults coordinator and display settings panels.</p>
+
+<h1>About Fragaria<p>
+<p><a href="https://github.com/shysaur/Fragaria/">This fork of Fragaria</a> really reimplements Fragaria from the very lowest levels, but is not a complete rewrite. Some of the most fundamental differences include:</p>
+
+<h2>What end users should notice:</h2>
+<ul>
+    <li>A much improved syntax highlighter with better speeds.</li>
+    <li>A better, more capable gutter with super-fast response (no more tearing on long documents).</li>
+    <li>Improved syntax error display options.</li>
+    <li>Modern-looking settings panels, which can be used for managing Preferences (for example).</li>
+</ul>
+
+<h2>What developers should notice:</h2>
+<ul>
+    <li>Fragaria is no longer dependent upon user defaults for controlling its behavior and appearance.</li>
+    <li>Property-based API for controlling behavior and appearance.</li>
+    <li>Support for Fragaria’s legacy defaults is still present, however (optional).</li>
+    <li>A new defaults system that can optionally be used.</li>
+    <li>A better syntax error controller with more features for types and styles of syntax errors.</li>
+    <li>Improved breakpoints features that support multiple colors and styles.</li>
+</ul>
+
+<p>Using the MGSFragaria class is largely backwards compatible. See for example the legacy “NSDocument based” and “Simple” demo application build targets.</p>
+
+
+<h1>Features this demo implements</h1>
+
+<h2>Split View</h2>
+<p>Early in <kbd>applicationDidFinishLaunching</kbd> we replace the text storage of the lower view with the text storage of the upper view. This effectively makes the two views into a split view.
+
+<h2>Syntax errors</h2>
+<p>The demo application statically adds syntax errors, and shows off the different types of errors that can be used easily. Consult SMLSyntaxError.h for a description of the error properties.</p>
+
+<h2>Breakpoints</h2>
+
+<h2>Group Property Management</h2>
+
+<h2>Preferences (user defaults)</h2>
+
+
+<h2>View settings independent of user defaults</h2>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+/* String for cancel button. */
+"Cancel" = "Cancel";
+
+/* Toolbar item name for the Colors preference pane */
+"Colors" = "Colors";
+
+/* Name for Custom Settings scheme. */
+"Custom Settings" = "Custom Settings";
+
+/* String for delete button. */
+"Delete" = "Delete";
+
+/* The text for the save/delete scheme button when it should read Delete Scheme… */
+"Delete Scheme…" = "Delete Scheme…";
+
+/* String to alert. */
+"Delete the scheme?" = "Delete the scheme?";
+
+/* String for alert information. */
+"Deleted schemes cannot be restored." = "Deleted schemes cannot be restored.";
+
+/* Toolbar item name for the Editor preference pane */
+"Editor" = "Editor";
+
+/* Hint explaining why certain items are bold. */
+"Items in bold affect all of your views." = "Items in bold affect all of your views.";
+
+/* Default name for new schemes. */
+"New Scheme" = "New Scheme";
+
+/* The text for the save/delete scheme button when it should read Save Scheme… */
+"Save Scheme…" = "Save Scheme…";
+

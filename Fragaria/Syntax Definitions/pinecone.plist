@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beginCommand</key>
+	<string>(</string>
+	<key>endCommand</key>
+	<string>)</string>
+	<key>beginInstruction</key>
+	<string></string>
+	<key>endInstruction</key>
+	<string></string>
+	<key>beginVariable</key>
+	<string></string>
+	<key>endVariable</key>
+	<string>:</string>
+	<key>firstString</key>
+	<string>&quot;</string>
+	<key>secondString</key>
+	<string></string>
+	<key>firstSingleLineComment</key>
+	<string>#</string>
+	<key>secondSingleLineComment</key>
+	<string></string>
+	<key>functionDefinition</key>
+	<string>(*)(?:\s+)?::(?:\s+)?(?:{*}\.)?{*?}(?:\s+)?(?:\-&gt;(?:\s+)?{*}(?:\s+)?)?:(?:\s+)?\(*\)</string>
+	<key>numberDefinition</key>
+	<string>(?&lt;=\W)(([-+]?[0-9]+(\.[0-9]*)?(?=[^xb]))|(0x[0-9A-Fa-f]+)|(0b[01]+))</string>
+	<key>beginFirstMultiLineComment</key>
+	<string>//</string>
+	<key>endFirstMultiLineComment</key>
+	<string>\\</string>
+	<key>keywordsCaseSensitive</key>
+	<true/>
+	<key>recolourKeywordIfAlreadyColoured</key>
+	<true/>
+	<key>allowSyntaxColouring</key>
+	<true/>
+	<key>keywords</key>
+	<array>
+		<string>:</string>
+		<string>@</string>
+		<string>print</string>
+		<string>cppHead</string>
+		<string>cppCode</string>
+		<string>input</string>
+		<string>len</string>
+		<string>ascii</string>
+		<string>sub</string>
+		<string>String</string>
+		<string>Bool</string>
+		<string>Int</string>
+		<string>Dub</string>
+		<string>Whatev</string>
+		<string>tru</string>
+		<string>fls</string>
+		<string>in</string>
+	</array>
+</dict>
+</plist>

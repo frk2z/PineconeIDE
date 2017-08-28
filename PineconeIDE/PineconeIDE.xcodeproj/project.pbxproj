@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0E88541F51F134001A4FA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0E88531F51F134001A4FA0 /* AppDelegate.m */; };
+		4F0E88571F51F134001A4FA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0E88561F51F134001A4FA0 /* main.m */; };
+		4F0E88621F51F134001A4FA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0E88601F51F134001A4FA0 /* Main.storyboard */; };
+		4F0E88771F51F373001A4FA0 /* DocumentEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0E88751F51F373001A4FA0 /* DocumentEditor.m */; };
+		4F0E88781F51F373001A4FA0 /* DocumentEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0E88761F51F373001A4FA0 /* DocumentEditor.xib */; };
+		4F0E887B1F51F8C1001A4FA0 /* Fragaria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0E887A1F51F8C1001A4FA0 /* Fragaria.framework */; };
+		4F0E887C1F51F8C1001A4FA0 /* Fragaria.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0E887A1F51F8C1001A4FA0 /* Fragaria.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4F0E88811F51FCC1001A4FA0 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0E887E1F51FCC1001A4FA0 /* MASPreferencesWindow.xib */; };
+		4F0E88821F51FCC1001A4FA0 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0E88801F51FCC1001A4FA0 /* MASPreferencesWindowController.m */; };
+		4F0E88881F522220001A4FA0 /* PineconeCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0E88871F522220001A4FA0 /* PineconeCommands.m */; };
+		4F70B1511F5370AB009BE965 /* pn.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4F70B1501F5370AB009BE965 /* pn.icns */; };
+		4F70B1531F5370B4009BE965 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4F70B1521F5370B4009BE965 /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F0E88721F51F298001A4FA0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4F0E887C1F51F8C1001A4FA0 /* Fragaria.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F0E884F1F51F134001A4FA0 /* Pinecone IDE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pinecone IDE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0E88521F51F134001A4FA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F0E88531F51F134001A4FA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F0E88561F51F134001A4FA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F0E88611F51F134001A4FA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F0E88631F51F134001A4FA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F0E88741F51F373001A4FA0 /* DocumentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentEditor.h; sourceTree = "<group>"; };
+		4F0E88751F51F373001A4FA0 /* DocumentEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentEditor.m; sourceTree = "<group>"; };
+		4F0E88761F51F373001A4FA0 /* DocumentEditor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocumentEditor.xib; sourceTree = "<group>"; };
+		4F0E887A1F51F8C1001A4FA0 /* Fragaria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Fragaria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0E887D1F51FCC1001A4FA0 /* MASPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesViewController.h; sourceTree = "<group>"; };
+		4F0E887E1F51FCC1001A4FA0 /* MASPreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MASPreferencesWindow.xib; sourceTree = "<group>"; };
+		4F0E887F1F51FCC1001A4FA0 /* MASPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesWindowController.h; sourceTree = "<group>"; };
+		4F0E88801F51FCC1001A4FA0 /* MASPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASPreferencesWindowController.m; sourceTree = "<group>"; };
+		4F0E88871F522220001A4FA0 /* PineconeCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PineconeCommands.m; sourceTree = "<group>"; };
+		4F425C841F52388A0009A883 /* PineconeCommands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PineconeCommands.h; sourceTree = "<group>"; };
+		4F70B1501F5370AB009BE965 /* pn.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = pn.icns; sourceTree = "<group>"; };
+		4F70B1521F5370B4009BE965 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F0E884C1F51F134001A4FA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0E887B1F51F8C1001A4FA0 /* Fragaria.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F0E88461F51F133001A4FA0 = {
+			isa = PBXGroup;
+			children = (
+				4F0E88511F51F134001A4FA0 /* PineconeIDE */,
+				4F0E88501F51F134001A4FA0 /* Products */,
+				4F0E88731F51F2AE001A4FA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F0E88501F51F134001A4FA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F0E884F1F51F134001A4FA0 /* Pinecone IDE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F0E88511F51F134001A4FA0 /* PineconeIDE */ = {
+			isa = PBXGroup;
+			children = (
+				4F425C841F52388A0009A883 /* PineconeCommands.h */,
+				4F0E88871F522220001A4FA0 /* PineconeCommands.m */,
+				4F0E88831F51FCC9001A4FA0 /* Prefs */,
+				4F0E88521F51F134001A4FA0 /* AppDelegate.h */,
+				4F0E88531F51F134001A4FA0 /* AppDelegate.m */,
+				4F0E88601F51F134001A4FA0 /* Main.storyboard */,
+				4F0E88791F51F378001A4FA0 /* DocumentEditor */,
+				4F0E88631F51F134001A4FA0 /* Info.plist */,
+				4F70B1541F5370BA009BE965 /* Icons */,
+				4F0E88551F51F134001A4FA0 /* Supporting Files */,
+			);
+			path = PineconeIDE;
+			sourceTree = "<group>";
+		};
+		4F0E88551F51F134001A4FA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F0E88561F51F134001A4FA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F0E88731F51F2AE001A4FA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F0E887A1F51F8C1001A4FA0 /* Fragaria.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4F0E88791F51F378001A4FA0 /* DocumentEditor */ = {
+			isa = PBXGroup;
+			children = (
+				4F0E88741F51F373001A4FA0 /* DocumentEditor.h */,
+				4F0E88751F51F373001A4FA0 /* DocumentEditor.m */,
+				4F0E88761F51F373001A4FA0 /* DocumentEditor.xib */,
+			);
+			name = DocumentEditor;
+			sourceTree = "<group>";
+		};
+		4F0E88831F51FCC9001A4FA0 /* Prefs */ = {
+			isa = PBXGroup;
+			children = (
+				4F0E887D1F51FCC1001A4FA0 /* MASPreferencesViewController.h */,
+				4F0E887E1F51FCC1001A4FA0 /* MASPreferencesWindow.xib */,
+				4F0E887F1F51FCC1001A4FA0 /* MASPreferencesWindowController.h */,
+				4F0E88801F51FCC1001A4FA0 /* MASPreferencesWindowController.m */,
+			);
+			name = Prefs;
+			sourceTree = "<group>";
+		};
+		4F70B1541F5370BA009BE965 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				4F70B1501F5370AB009BE965 /* pn.icns */,
+				4F70B1521F5370B4009BE965 /* icon.icns */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F0E884E1F51F134001A4FA0 /* Pinecone IDE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F0E88661F51F134001A4FA0 /* Build configuration list for PBXNativeTarget "Pinecone IDE" */;
+			buildPhases = (
+				4F0E884B1F51F134001A4FA0 /* Sources */,
+				4F0E884C1F51F134001A4FA0 /* Frameworks */,
+				4F0E884D1F51F134001A4FA0 /* Resources */,
+				4F0E88721F51F298001A4FA0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pinecone IDE";
+			productName = PineconeIDE;
+			productReference = 4F0E884F1F51F134001A4FA0 /* Pinecone IDE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F0E88471F51F133001A4FA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = frk2z;
+				TargetAttributes = {
+					4F0E884E1F51F134001A4FA0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F0E884A1F51F133001A4FA0 /* Build configuration list for PBXProject "PineconeIDE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F0E88461F51F133001A4FA0;
+			productRefGroup = 4F0E88501F51F134001A4FA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F0E884E1F51F134001A4FA0 /* Pinecone IDE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F0E884D1F51F134001A4FA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F70B1531F5370B4009BE965 /* icon.icns in Resources */,
+				4F70B1511F5370AB009BE965 /* pn.icns in Resources */,
+				4F0E88811F51FCC1001A4FA0 /* MASPreferencesWindow.xib in Resources */,
+				4F0E88781F51F373001A4FA0 /* DocumentEditor.xib in Resources */,
+				4F0E88621F51F134001A4FA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F0E884B1F51F134001A4FA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0E88881F522220001A4FA0 /* PineconeCommands.m in Sources */,
+				4F0E88821F51FCC1001A4FA0 /* MASPreferencesWindowController.m in Sources */,
+				4F0E88571F51F134001A4FA0 /* main.m in Sources */,
+				4F0E88541F51F134001A4FA0 /* AppDelegate.m in Sources */,
+				4F0E88771F51F373001A4FA0 /* DocumentEditor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F0E88601F51F134001A4FA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F0E88611F51F134001A4FA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F0E88641F51F134001A4FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F0E88651F51F134001A4FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F0E88671F51F134001A4FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PineconeIDE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.k2z.PineconeIDE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F0E88681F51F134001A4FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PineconeIDE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.k2z.PineconeIDE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F0E884A1F51F133001A4FA0 /* Build configuration list for PBXProject "PineconeIDE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0E88641F51F134001A4FA0 /* Debug */,
+				4F0E88651F51F134001A4FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F0E88661F51F134001A4FA0 /* Build configuration list for PBXNativeTarget "Pinecone IDE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0E88671F51F134001A4FA0 /* Debug */,
+				4F0E88681F51F134001A4FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F0E88471F51F133001A4FA0 /* Project object */;
+}
